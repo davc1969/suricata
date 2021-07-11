@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="description" content="Curso JavaScript - Clase de Bootstrap - Ejercicio Suricata">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+    <meta name="author" content="Darío Valenzuela">
+       
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON para la página.  Generado a partir e imagenes disponibles sin copyright -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon-32x32.png">
+
+    <!-- Fuentes de google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Conexión a repositorio FONTAWESOME para inclusión de iconos -->
+    <script src="https://kit.fontawesome.com/5591d98e04.js" crossorigin="anonymous"></script>
+
+    <!-- Hojas de estilo, de bootstrap y personal -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- título de la página -->
+    <title>Suricata's page</title>
+</head>
+
+
+<body>
+
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: var(--pink);">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <img src="assets/img/logo.png" alt="Logo de Olivia Ros"> </a>
+  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+    <header>
+      <!-- Título principal -->
+      <div class="container-fluid tituloprincipal">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1>Nuestros Productos</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+    <main class="justify-content-center">
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-3 col-sm-12 card_holder mx-auto">
+            <div class="card">
+              <img src="assets/img/colaciones.jpg" class="card-img-top" alt="Colaciones">
+              <div class="card-body">
+                <h5 class="card-title">Colaciones</h5>
+                <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit</p>
+              </div>
+
+              <!-- Lista de característiacs y link para ver mas y comprar -->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Ver mas</a>
+                <a href="#" class="card-link">Comprar</a>
+              </div>
+            
+            </div>
+          </div>
+          
+          <div class="col-12 col-lg-3 col-sm-12 card_holder mx-auto">
+            <div class="card">
+              <img src="assets/img/desayunos.jpg" class="card-img-top" alt="Desayunos">
+              <div class="card-body">
+                <h5 class="card-title">Desayunos</h5>
+                <p class="card-text">Iste natus error sit voluptatem accusantium</p>
+              </div>
+
+              <!-- Lista de característiacs y link para ver mas y comprar -->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Ver mas</a>
+                <a href="#" class="card-link">Comprar</a>
+              </div>
+            
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-3 col-sm-12 card_holder mx-auto">
+            <div class="card">
+              <img src="assets/img/bebidas.jpg" class="card-img-top" alt="Bebidas">
+              <div class="card-body">
+                <h5 class="card-title">Bebidas</h5>
+                <p class="card-text">Doloremque laudantium, totam rem aperiam, eaque</p>
+              </div>
+
+              <!-- Lista de característiacs y link para ver mas y comprar -->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Ver mas</a>
+                <a href="#" class="card-link">Comprar</a>
+              </div>
+            
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row justify-content-around">
+          <div class="col-12 col-lg-3 col-sm-12 card_holder mx-auto">
+            <div class="card">
+              <img src="assets/img/verduras.jpg" class="card-img-top" alt="Verduras">
+              <div class="card-body">
+                <h5 class="card-title">Verduras</h5>
+                <p class="card-text">Ipsa quae ab illo inventore veritatis et quasi architecto</p>
+              </div>
+
+              <!-- Lista de característiacs y link para ver mas y comprar -->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Ver mas</a>
+                <a href="#" class="card-link">Comprar</a>
+              </div>
+            
+            </div>
+          </div>
+          
+          <div class="col-12 col-lg-3 col-sm-12 card_holder mx-auto">
+            <div class="card">
+              <img src="assets/img/dulces.jpg" class="card-img-top" alt="Dulces">
+              <div class="card-body">
+                <h5 class="card-title">Dulces</h5>
+                <p class="card-text">Some quick example text to build on the card title and</p>
+              </div>
+
+              <!-- Lista de característiacs y link para ver mas y comprar -->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Ver mas</a>
+                <a href="#" class="card-link">Comprar</a>
+              </div>
+            
+            </div>
+          </div>
+
+
+          <div class="col-12 col-lg-3 col-sm-12 card_holder mx-auto">
+            <div class="card">
+              <img src="assets/img/empanadas.jpg" class="card-img-top" alt="Empanadas">
+              <div class="card-body">
+                <h5 class="card-title">Empanadas</h5>
+                <p class="card-text">Some quick example text to build on the card title and</p>
+              </div>
+
+              <!-- Lista de característiacs y link para ver mas y comprar -->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Morbi leo risus</li>
+                <li class="list-group-item">Porta ac consectetur ac</li>
+              </ul>
+              <div class="card-body">
+                <a href="#" class="card-link">Ver mas</a>
+                <a href="#" class="card-link">Comprar</a>
+              </div>
+            
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer>
+      <!-- El footer tiene dos partes, una que aparece solo en pantalla grande y la otra si es común a ambas pantallas -->
+      <!-- Footer de las tarjetas -->
+      <section class="icons-section d-none d-sm-block align-items-center pb-0">
+        <div class="row justify-content-center">
+          <div class="col-4">
+            <h2>Ahora aceptamos</h2>
+          </div>
+          <div class="col-1 big_icon">
+            <i class="fab fa-cc-mastercard"></i>
+          </div>
+          <div class="col-1 big_icon">
+            <i class="fab fa-cc-visa"></i>
+          </div>
+          <div class="col-1 big_icon">
+            <i class="fab fa-cc-amex"></i>
+          </div>
+          <div class="col-1 big_icon">
+            <i class="fab fa-cc-diners-club"></i>
+          </div>
+          <div class="col-1 big_icon">
+            <i class="fab fa-cc-paypal"></i>
+          </div>
+          <div class="col-1 big_icon">
+            <i class="fab fa-cc-discover"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer del logo -->
+      <section>
+        <div class="logofooter">
+            <img src="assets/img/logo-footer.png" alt="Suricata">
+        </div>
+      </section>
+
+ 
+    </footer>
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+
+</html>

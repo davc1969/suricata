@@ -1,0 +1,158 @@
+:root{
+    --pink:#e83e8c;
+    --darkgrey:#707070;
+    --lightblue:#17A2B8;
+}
+
+@media(min-width:320px){
+    .tituloprincipal{
+        padding-top: 10%;
+    }
+}
+
+/* 
+@media(max-width:320px){
+    h1{
+        padding-bottom: 9px;
+        padding-top: 60%;
+        color: red;
+    }
+    h5{
+        font-size: 16px;
+        color: red;
+    }
+    .card{
+        width: 238px;
+    }
+    .card img{
+        width: 238px;
+    }
+    .col-sm-3{
+        padding-bottom: 50.33px;
+    }
+    .container-fluid{
+        padding-left: 12.5%;
+        margin: 0%;
+    }
+} */
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.navbar{
+    height: 75px;
+    justify-content: end;
+    padding: 1% 10%;
+}
+
+.navbar img{
+    height:53px;
+}
+
+.contNavBar{
+    width: 100%;
+}
+
+.navbar-toggler-icon{
+    width: 40px;
+    height: 42px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: calc(35px + (60 - 35) * ((100vw - 320px) / (1280 - 320)));
+    color: var(--darkgrey);
+    text-align: center;
+    padding-top: 6.5%;
+    padding-bottom: 0;
+    margin: 0%; 
+    /* calc(59px + (60 - 59) * ((100vw - 320px) / (1280 - 320))); */
+}
+
+
+.row{
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.tituloprincipal{
+    padding-bottom: 0;
+    padding-top: 5rem;
+    margin: auto;
+}
+
+h5{
+    font-size: 17px;
+    font-weight:700 ;
+}
+
+.col-sm-3{
+    padding-bottom: 64.24px;
+}
+
+.card_holder{
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card{
+    width: 248px;
+}
+
+.card-text{
+    height: 50.33px;
+}
+.card img{
+    width: 248px;
+}
+.card p{
+    font-size: 16px;
+}
+
+.card li{
+    font-size: 11px;
+}
+
+.card a{
+    font-size: 11px;
+    color: #1C7CD5;
+}
+
+.icons-section{
+    height: 170px;
+    color: #ffffff;
+    background-color: var(--lightblue);
+    display: flex;
+}
+.icons-section h2{
+    font-size: calc(10px + (40 - 10) * ((100vw - 320px) / (1280 - 320)));
+    font-weight: 700;
+    padding-top: 58px;
+}
+
+.big_icon{
+    font-size: calc(20px + (53.33 - 20) * ((100vw - 320px) / (1280 - 320)));
+    padding:0;
+    padding-top: 40px;
+}
+
+.logofooter{
+    height: 170px;
+    background-color: var(--pink);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logofooter img{
+    height: calc(67.39px + (100.45 - 67.39) * ((100vw - 320px) / (1280 - 320)));;
+}
